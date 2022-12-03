@@ -1,0 +1,218 @@
+.app .background {
+    height: 1300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 0.95;
+}
+
+.app {
+    position: relative;
+}
+
+.CV {
+    width: 800px;
+    height: 1090px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+    display: flex;
+}
+
+/*CV phần 1*/
+
+.CV-part-1 {
+    background-color: #FFFAF2;
+    width: 332px;
+    padding: 37px 23px;
+    height: 100%;
+}
+
+/*Thông tin cá nhân*/
+
+/*Tên và ảnh*/
+
+.CV-personal-general-info {
+    margin-bottom: 25px;
+}
+
+.CV-personal-info__name {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1em;
+    text-align: center;
+}
+
+.CV-personal-info__img {
+    height: 146px;
+    width: 146px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid var(--primary-color);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.CV-personal-info__recruit {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-align: center;
+    margin: 15px 0;
+}
+
+/*Thông tin chi tiết*/
+
+.CV-personal-info-content__items {
+    font-size: 1.4rem;
+    margin: 6px 0 0 0;
+    line-height: 2rem;
+}
+
+.CV-personal-info-content__items p {
+    margin: 0;
+    display: inline-block;
+    color: var(--text-color)
+}
+
+.CV-personal-info-content__items i {
+    color: var(--primary-color);
+    width: 20px;
+}
+
+.CV-personal-info-content__items a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.CV-personal-info-content {
+
+}
+
+/*Kĩ năng*/
+
+.CV-personal-skills__body {
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.CV-personal-skills__item h3 {
+    font-size: 1.4rem;
+    margin: 0;
+    line-height: 3rem;
+}
+
+.CV-personal-skills__item p {
+    line-height: 2.5rem;
+    margin: 0;
+}
+
+/*Sở thích*/
+
+.CV-personal-favor p {
+    font-size: 1.4rem;
+    margin: 0;
+    line-height: 2.5rem;
+    color: var(--text-color);
+}
+
+/*CV phần 2*/
+
+.CV-part-2 {
+    background-color: #FFF;
+    width: calc(100% - 332px);
+    padding: 37px 23px;
+    height: 100%;
+    position: relative;
+}
+
+/*Mục tiêu nghề nghiệp*/
+
+.CV-job-target p {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    color: var(--text-color);
+}
+
+/*Học vấn - Kinh nghiệm - Hoạt động - Giải thưởng*/
+
+.CV-form-list {
+
+}
+
+.CV-form__item {
+    font-size: 1.4rem;
+}
+
+.CV-form__sub-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.CV-form__sub-heading h4 {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.4em;
+    color: #555555;
+    width: 65%;
+    padding-bottom: 10px;
+}
+
+.CV-form__sub-heading p {
+    margin: 0;
+    color: #9c9c9c;
+    font-style: italic;
+    line-height: 1.4em;
+}
+
+.CV-form__note {
+    color: #9c9c9c;
+    padding: 0 0 4px;
+}
+
+.CV-form__note p {
+    margin: 0;
+}
+
+.CV-form__content {
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+
+.CV-form__content p {
+    margin: 0;
+    line-height: 1.4em;
+    padding-bottom: 20px;
+}
+
+.CV-form-list .CV-form__item:last-child p {
+    padding-bottom: 4px;
+}
+
+.CV-form__content p span {
+    font-weight: bold;
+}
+
+/*CV Footer*/
+
+.CV-footer {
+    text-align: right;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    position: absolute;
+    bottom: 0;
+    right: 23px;
+    margin: 0;
+    cursor: help;
+}
+
+

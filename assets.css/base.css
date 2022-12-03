@@ -1,0 +1,48 @@
+* {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary-color: #ff9f0a;
+    --text-color: #666666;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: roboto,Arial,sans-serif;
+}
+
+.CV-info-item {
+    padding: 20px 0;
+    border-bottom: 2px solid #FFE8C4;
+}
+
+.CV-info-item--no-border {
+    border-bottom: none;
+}
+
+.CV-title {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin: 0 0 15px 0;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+}
+
+.CV-title:after {
+    content: "";
+    display: block;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color: #fff2db;
+    z-index: -1;
+    margin-top: -2px;
+}
+
+
+
