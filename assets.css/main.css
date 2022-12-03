@@ -164,7 +164,7 @@
     line-height: 1.4em;
     color: #555555;
     width: 65%;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .CV-form__sub-heading p {
@@ -176,7 +176,7 @@
 
 .CV-form__note {
     color: #9c9c9c;
-    padding: 0 0 4px;
+    padding: 0 0 8px;
 }
 
 .CV-form__note p {
@@ -194,12 +194,18 @@
     padding-bottom: 20px;
 }
 
-.CV-form-list .CV-form__item:last-child p {
-    padding-bottom: 4px;
-}
-
 .CV-form__content p span {
     font-weight: bold;
+}
+
+/*Fix lỗi*/
+
+.CV-form-list .CV-form__item:last-child p {
+    padding-bottom: 0px;
+}
+
+.CV-activities .CV-form__note {
+    padding-bottom: 0;
 }
 
 /*CV Footer*/
